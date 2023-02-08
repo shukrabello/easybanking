@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header{width: 100%;
+height: 50%;
+padding: 1%;
+position: relative;}
+
+.header__logo{position: absolute;
+    left: 5%;
+    top: calc(50px*.35);
+    width: 150px;
+    height: 25px;
+
+}
+
+.btn{
+    border: none;
+    height: 50px;
+    width: 175px;
+    background-color:hsl(192, 70%, 51%);
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.btn:hover{background: hsl(192, 70%, 80%);
+    background: linear-gradient(117deg,hsl(136, 65%, 51%)0%,hsl(192, 70%, 51%)100%);
+   }
+
+   @media screen and {min-width: n;
+    
+   }
+   
